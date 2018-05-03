@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+   	 <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width,user-scalable=no">
+   	<title>PHP</title>
+   	<link rel="stylesheet" href="CSS/stilos.css" />
+  </head>
+    <body style="background-color:#FFFFFF" >
+	 <!-- Encabezado de la página -->
+    <header id="banner" class="body">
+      <!-- Título de la página -->
+	  <img src="img/logoUNAD2015.png" width="50%" alt="Logo Unad" class="photo1" align="right"/>
+      <h1 align= "left" style="color:rgb(51, 153, 204)" >PHP </h1>  
+      <!-- Barra de menú -->
+      <nav>
+        <ul>
+          <li><a href="index.php">Inicio</a></li>
+		  <li class="active"><a href="#banner">PHP</a></li>
+          <li><a href="mysql.html">MySQL</a></li>
+          <li><a href="php-database.html">PHP-Database</a></li>
+          <li><a href="acercade.html">Acerca de</a></li>
+        </ul>
+      </nav>
+    </header>
+	
+
+    <!-- Campo para poner el contenido de elementos relacionados con el contenido principal, se
+         representan con la etiqueta aside-->
+    <aside id="featured" class="body">
+      <article>
+        <h2>Qué es PHP?</h2>       
+      </article>
+    </aside>
+	<section id="contenido" class="body">
+      <div class="parrafos">
+        <p>PHP (acronimo de "PHP: Hypertext Preprocessor") es un lenguaje interpretado de alto nivel embebido en páginas HTML y ejecutado en el servidor.
+			Una respuesta corta y concisa, pero que significa realmente? Un ejemplo nos aclarará las cosas:<br>
+		 Ejemplo 1-1. Un ejemplo introductorio <br>
+		<strong>&lt;html&gt;</strong><br>
+		<strong>&lt;head&gt;</strong><br>
+		<strong>&lt;title&gt; Ejemplo PHP &lt/title&gt;</strong><br>
+		<strong>&lt;/head&gt;</strong><br>
+		<strong>&lt;body&gt;</strong><br>
+		<strong>&lt;?php echo "Hola, este es un ejemplo con PHP!"; ?&gt;</strong><br>
+		<strong>&lt;body&gt;</strong><br>
+		<strong>&lt;html&gt;</strong><br>
+		</p>
+		<p align="justify">Al nivel más básico, PHP puede hacer cualquier cosa que se pueda hacer con un script CGI, como procesar la información de formularios, generar páginas con contenidos dinámicos, o mandar y recibir cookies.
+Quizas la característica más potente y destacable de PHP es su soporte para una gran cantidad de bases de datos. Escribir un interfaz via web para una base de datos es una tarea simple con PHP. Las siguientes bases de datos están soportadas actualmente:<br>
+Adabas D Ingres Oracle (OCI7 and OCI8), dBase InterBase PostgreSQL, Empress FrontBase Solid, FilePro mSQL Sybase <br> IBM DB2 MySQL Velocis, Informix ODBC Unix dbm
+PHP también soporta el uso de otros servicios que usen protocolos como IMAP, SNMP, NNTP, POP3, HTTP y derivados. Tambien se pueden abrir sockets de red directos (raw sockets) e interactuar con otros protocolos.
+		 </p>
+		<h2>Qué se puede hacer con PHP?</h2>
+		
+		<p align="justify">Podemos ver que no es lo mismo que un script CGI escrito en otro lenguaje de programación como Perl o C – En vez de escribir un programa con muchos comandos para crear una salida en HTML, escribimos el código HTML con cierto código PHP embebido (introducido) en el mismo, que producirá cierta salida (en nuestro ejemplo, producir un texto). El código PHP se incluye entre etiquetas especiales de comienzo y final que nos permitirán entrar y salir del modo PHP. Lo que distingue a PHP de la tecnología Javascript, la cual se ejecuta en la máquina cliente, es que el código PHP es ejecutado en el servidor. Si tuviésemos un script similar al de nuestro ejemplo en nuestro servidor, el cliente solamente recibiría el resultado de su ejecución en el servidor, sin ninguna posibilidad de determinar que código ha producido el resultado recibido. El servidor web puede ser incluso configurado para que procese todos los ficheros HTML con PHP.</p>
+      </div>
+     
+    </section><!-- /#extras -->
+	 <section id="extras" class="body">
+      <div class="menu-inferior">
+        <h2>Menú</h2>
+
+        <!-- Enlaces a blogs.-->
+        <ul>
+          <li><a href="index.php" rel="external">Inicio</a></li>
+		  <li><a href="#banner" rel="external">PHP</a></li>
+          <li><a href="mysql.html" rel="external">MySQL</a></li>
+          <li><a href="php-database.html" rel="external">PHP-Database</a></li>
+          <li><a href="acercade.html" rel="external">Acerca de</a></li>
+		</ul>
+      </div>
+     <!-- Redes Sociales-->
+      <div class="social">
+        <h2>social</h2>
+        <ul>         
+          <li><a href="http://facebook.com/" rel="me">facebook</a></li>    
+          <li><a href="http://twitter.com/" rel="me">twitter</a></li>
+        </ul>
+      </div>
+    </section><!-- /#extras -->
+    <!-- Contenido del pie de pagina con información del autor-->
+    <footer id="contentinfo" class="body">
+      <!-- Contenido de acerca de nosotros-->
+     
+<h2 align="middle" >Autor: Cristian Urrego</h2>
+<p align="middle"> <strong> Universidad Nacional Abierta y a Distancia UNAD - Unidad 1 y 2: Fase de Construcción - Crear un OVI en formato WEB con HTML5 y CSS3</strong></p>
+    </footer>
+
+  </body>
+</html>
